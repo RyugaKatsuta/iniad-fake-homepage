@@ -41,3 +41,13 @@ h3 {
   color: #124d90;
   font-size: 30px;
 }
+
+#headerindex {
+  background-color : #17194c;
+  padding : 10px 20px 10px 20px;
+  height : 40px;
+}
+
+#headerindex img {
+  height : 100%;
+}
