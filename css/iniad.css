@@ -42,6 +42,13 @@ h3 {
   font-size: 30px;
 }
 
+.komidashi{
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
 .index_title {
   background-color: #e7e7e7;
   color: #000000;
