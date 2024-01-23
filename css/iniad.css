@@ -42,6 +42,15 @@ h3 {
   font-size: 30px;
 }
 
+.index_title {
+  background-color: #e7e7e7;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  height: 110px;
+  margin: 20px 20px 20px 20px;
+}
+
 #headerindex {
   background-color : #17194c;
   padding : 10px 20px 10px 20px;
