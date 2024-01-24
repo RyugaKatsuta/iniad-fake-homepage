@@ -66,3 +66,14 @@ h3 {
 #headerindex img {
   height : 100%;
 }
+
+#footer {
+  color : #ffffff;
+  background-color : #17194c;
+  text-align : center; 
+}
+
+#footer a{
+  color : #ffffff;
+  text-decoration : none;
+}
