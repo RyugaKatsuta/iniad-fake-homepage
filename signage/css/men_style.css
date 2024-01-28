@@ -98,7 +98,14 @@ footer {
 	text-align: center;
 }
 
-img {
+
+  <!--img {
+  width: 50%;
+  height: auto; /* オリジナルの縦横比を保つために、heightを自動に設定 */
+}
+
+
+.img-top {
     width: 50%;
     height: auto; /* オリジナルの縦横比を保つために、heightを自動に設定 */
   }
@@ -109,6 +116,9 @@ img {
   
  .img-container img {
    margin-right: 10px; /* 画像間の隙間を10pxに設定 */
+   margin-bottom: 10px;
+   width: 50%;
+   height: auto; /* オリジナルの縦横比を保つために、heightを自動に設定 */
   }
 
   #popup {
