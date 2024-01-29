@@ -98,3 +98,5 @@ footer {
 	text-align: center;
 }
 /*追加分*/
+
+.resizeimage img { width: 100%; }
