@@ -120,7 +120,7 @@ h1{
 
 .img-container-content {
   width: 49%; /* 画像が2列になるように幅を調整 */
-  margin-bottom 10px; /* 画像間のマージンを追加 */
+  margin-bottom 30px; /* 画像間のマージンを追加 */
   box-sizing: border-box; /* ボーダーボックスモデルを使用して、幅と高さにパディングとボーダーが含まれるようにする */
 }
 

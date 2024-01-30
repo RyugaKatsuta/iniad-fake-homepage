@@ -15,55 +15,69 @@
  <link href="css/set meal_style.css" rel="stylesheet">
  </head>
  <body id="black">
-
   <!-- header -->
   <div class="wrap">
    <header class="cf">
     <img src="img_fixed/logo-b.png">
    </header>
    
- <!-- scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-  <script src="js/bootstrap.min.js"></script>
- </body>
- <body>
-  　<p>&nbsp;</p> <!-- 空行を追加 -->
-    <h1 class="main-title">定食メニュー</h1>
-    <p>&nbsp;</p> <!-- 空行を追加 -->
+ <!-- contents -->
 
-   <!-- HTML ファイル内 -->
-<div class="image-container">
-  <div class = "image-container-content">
-    <img src="img_fixed/set meal/Fried Chicken.jpg" alt="唐揚げ定食メニューの表示">
-    <h2 class = "menu-title">唐揚げ定食　人気No.1</h2>
-    <h3 class = "menu-price"></h3class>450円</h3>
-  </div>
+   <div class="img-top">
+    <img src="img_fixed/set meal/Set meal-logo.jpg">
+    <h1><b>定　　　食</b></h1>
+   </div>
 
-  <div class = "image-container-content">
-    <img src="img_fixed/set meal/Ginger Pork.jpg" alt="生姜焼き定食メニューの表示">
-    <h2 class = "menu-title">生姜焼き定食</h2>
-    <h3 class = "menu-price"></h3class>500円</h3>
-    <p>&nbsp;</p> <!-- 空行を追加 -->
-  </div>
+   <input type="checkbox" id="popup">
+   <label class="popup-open" for="popup">▶アレルギー情報はこちら</label>
+       <div class="popup-overlay">
+         <div class="popup-window">
+          <p class="popup-text"><b>▽唐揚げ定食</b><br>小麦、大豆、卵、油<br><br><b>▽生姜焼き定食</b><br>小麦、大豆、生姜<br><br><b>▽ステーキ定食</b><br>小麦、大豆、肉<br><br><b>▽とんかつ定食</b><br>小麦、大豆、豚肉<br><br><b>▽焼き魚定食・刺身定食</b><br>小麦、大豆、魚介類<br><br><b></p>
+               <label class="popup-close" for="popup">
+                   <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                       <line x1="0" y1="0" x2="18" y2="18" stroke="white" stroke-width="3"></line>
+                       <line x1="0" y1="18" x2="18" y2="0" stroke="white" stroke-width="3"></line>
+                   </svg>
+               </label>
+           </div>
+       </div>
 
-  <div class = "image-container-content">
-    <img src="img_fixed/set meal/Grilled fish.jpg" alt="焼き魚定食メニューの表示">
-    <h2 class = "menu-title">焼き魚定食</h2>
-    <h3 class = "menu-price"></h3class>450円</h3>
-  </div>
+    <div class="img-container">
+        <div class="img-container-content">
+            <h3><b>唐揚げ定食</b> 税込み500円</h3>
+            <img src="img_fixed/set meal/Fried Chicken.jpg">
+        </div>
+
+        <div class="img-container-content">
+            <h3><b>生姜焼き定食</b> 税込み650円</h3>
+            <img src="img_fixed/set meal/Ginger Pork.jpg">
+        </div>
+    </div>
+
+    <div class="img-container">
+        <div class="img-container-content">
+            <h3><b>ステーキ定食</b> 税込み800円</h3>
+             <img src="img_fixed/set meal/Steak.jpg">
+        </div>
+
+        <div class="img-container-content">
+            <h3><b>とんかつ定食</b> 税込み800円</h3>
+             <img src="img_fixed/set meal/Tonkatsu.jpg">
+        </div>
+    </div>
+
+    <div class="img-container">
+        <div class="img-container-content">
+            <h3><b>焼き魚定食</b> 税込み650円</h3>
+             <img src="img_fixed/set meal/Grilled fish.jpg">
+        </div>
+
+        <div class="img-container-content">
+            <h3><b>刺身定食</b> 税込み900円</h3>
+            <img src="img_fixed/set meal/Sashimi.jpg">
+        </div>
+    </div>
   
-  <div class = "image-container-content">
-    <img src="img_fixed/set meal/Steak.jpg" alt="ステーキ定食メニューの表示">
-    <h2 class = "menu-title">ステーキ定食</h2>
-    <h3 class = "menu-price"></h3class>700円</h3>
-  </div>
-  <!-- 他の画像も同様に追加 -->
-</div>
-
-<p>&nbsp;</p> <!-- 空行を追加 -->
-<p>&nbsp;</p> <!-- 空行を追加 -->
-<p>&nbsp;</p> <!-- 空行を追加 -->
-<p style="font-size: 50px;">東洋大学の学食情報→ <a href="https://www.toyo.ac.jp/campuslife/student_support/support/cafeteria/" target="_blank">🔗</a></p>
 
    <!-- footer -->
    <footer>
@@ -71,5 +85,8 @@
    </footer>
   </div>
 
-  </body>
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+ </body>
 </html>
