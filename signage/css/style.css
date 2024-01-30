@@ -99,4 +99,22 @@ footer {
 }
 /*追加分*/
 
-.resizeimage img { width: 100%; }
+.resizeimage img { 
+	position:relative;
+	top:50px;
+	left:50px;
+	width: 90%;
+ }
+
+.resizeimage1 img { 
+	width: 100%;
+ }
+
+.wrap2 {
+	position: relative;
+	width: 1080px;
+	height: 1920px;
+	overflow: hidden;
+	background-color:rgb(23,25,76);
+	border: solid 0px #000;
+}
