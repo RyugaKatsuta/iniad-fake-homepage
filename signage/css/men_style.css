@@ -118,6 +118,9 @@ h1{
   font-family: "BIZ UDP明朝","BIZ UDPMincho";
 }
 
+a {
+  color: #ffffff;
+}
 
 .img-container-content {
   width: 49%; /* 画像が2列になるように幅を調整 */
