@@ -20,27 +20,47 @@
     <img src="img_fixed/logo-b.png">
    </header>
 <body>
-  <h1>丼もの〜rice bowl〜</h1>
-  <div class="photo-grid">
-    <div>
+  <img src="img_fixed/rice_bowl/top_icon.png" alt="表題の写真">
+  <div class="img-top">
+  <h1>丼もの<br>〜rice bowl〜</h1>
+  </div>
+
+  <input type="checkbox" id="popup">
+   <label class="popup-open" for="popup">▶アレルギー情報はこちら</label>
+       <div class="popup-overlay">
+         <div class="popup-window">
+          <p class="popup-text">
+            <b>▽豚丼</b><br>豚肉、卵<br><br><b>▽海鮮丼</b><br>甲殻類、魚卵<br><br><b>▽中華丼</b><br>卵、甲殻類<br><br><b>▽親子丼</b><br>卵<br><br><b>▽焼き魚定食・刺身定食</b><br>小麦、大豆、魚介類<br><br></p>
+               <label class="popup-close" for="popup">
+                   <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                       <line x1="0" y1="0" x2="18" y2="18" stroke="white" stroke-width="3"></line>
+                       <line x1="0" y1="18" x2="18" y2="0" stroke="white" stroke-width="3"></line>
+                   </svg>
+               </label>
+           </div>
+       </div>
+  <div class="img-container">
+  <div class="img-container-content">
     <h2>豚丼</h2>
     <img src="img_fixed/rice_bowl/pork.jpeg" alt="豚丼の写真">
     <p>¥500</p>
     <p>特製タレに漬けた金華豚を炭火で炙ったこだわりの一品です。</p>
   </div>
-  <div>
+  <div class="img-container-content">
     <h2>海鮮丼</h2>
     <img src="img_fixed/rice_bowl/sashimi.jpeg" alt="海鮮丼の写真">
     <p>¥700</p>
     <p>毎朝豊洲から仕入れたネタを日替わりで提供しています。</p>
   </div>
-  <div>
+  </div>
+  <div class="img-container">
+  <div class="img-container-content">
     <h2>中華丼</h2>
     <img src="img_fixed/rice_bowl/chinese.jpeg" alt="中華丼の写真">
     <p>¥400</p>
     <p>ひと品で野菜も肉もたっぷり食べられるバランスの良い料理です。</p>
   </div>
-  <div>
+  <div class="img-container-content">
     <h2>親子丼</h2>
     <img src="img_fixed/rice_bowl/egg_chicken.jpeg" alt="親子丼の写真">
     <p>¥500</p>
