@@ -12,9 +12,26 @@
  <link href="css/bootstrap.min.css" rel="stylesheet">
  <link href="css/font-awesome.min.css" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
+ 
  </head>
  <body id="black">
   <!-- header -->
+<div id="crowded-alert" style="display: none;">
+   <!-- 警告メッセージやコンテンツを追加 -->
+   ⚠ただいま混雑しております。
+</div>
+
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+       var now = new Date();
+       var hours = now.getHours();
+       // 12時から16時の間に警告を表示
+       if (hours >= 12 && hours < 16) {
+           // crowded-alertというIDを持つ要素を表示
+           document.getElementById("crowded-alert").style.display = "block";
+       }
+   });
+</script>
   <div class="wrap2">
     </header>
    
