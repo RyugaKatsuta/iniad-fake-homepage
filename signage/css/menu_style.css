@@ -82,8 +82,32 @@ header img {
   color: #fff;
 }
 
-.img-top img {
-  width: 330px; /* 任意の幅を指定 */
+.img-top-men {
+  text-align: center;
+}
+
+.img-top-rice {
+  text-align: center;
+}
+
+.img-top-set {
+  text-align: center;
+}
+
+.img-top-men img {
+  width: 300px; /* 任意の幅を指定 */
+  height: auto;
+  padding-top:50px;
+}
+
+.img-top-rice img {
+  width: 300px; /* 任意の幅を指定 */
+  height: auto;
+  padding-top:50px;
+}
+
+.img-top-set img {
+  width: 520px; /* 任意の幅を指定 */
   height: auto;
   padding-top:50px;
 }
@@ -139,14 +163,13 @@ a {
 
 .img-container-content img {
   width: 100%;
-  height: 350px;
+  height: 300px;
+  border-radius: 5%;
   object-fit: cover;
   border: solid 3px #FFFFFF;
 }
 
-.img-top {
-  text-align: center;
-}
+
 
   h3 {
     /*background-color: beige;*/
