@@ -184,8 +184,18 @@ a {
   }
 
   .popup-open {
-    cursor: pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
+    display: block;
+    text-align: center; /* ボタンを左寄せにする */
+    vertical-align: middle;
+    text-decoration: none;
+    width: 200px;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
     color: #FFFFFF;
+    border-radius: 100vh;
+    transition: 0.5s;
   }
 
   .popup-overlay {
@@ -232,25 +242,32 @@ a {
 
   a.btn {
     display: block;
-    text-align: center;
+    text-align: center; /* ボタンを左寄せにする */
     vertical-align: middle;
     text-decoration: none;
     width: 200px;
     margin: auto;
     padding: 1rem 4rem;
     font-weight: bold;
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
     border-radius: 100vh;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
-    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
     transition: 0.5s;
   }
   a.btn:hover {
     color: #fff;
+    background: #27ACD9;
+}
+
+  .popup-open:hover {
+    color: #fff;
     background: #27acd9;
-    border-bottom: 2px solid #fff;
-    transform: translateY(3px);
+  }
+
+  .btnflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
 /*追加分*/
